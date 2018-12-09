@@ -1,0 +1,25 @@
+{
+  "name": "eesserver",
+  "version": "1.0.0",
+  "description": "English Examination System Server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikamanthab/EngExamServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikamanthab/EngExamServer/issues"
+  },
+  "homepage": "https://github.com/nikamanthab/EngExamServer#readme"
+}
