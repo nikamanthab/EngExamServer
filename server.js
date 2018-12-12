@@ -19,6 +19,20 @@ app.get('/',(req,res)=>{
 	});
 });
 
+app.get('/student',(req,res)=>{
+	console.log(req);
+	res.render('student.hbs',{
+		title: "English Exam System",
+	});
+});
+
+app.get('/welcome',(req,res)=>{
+	console.log(req);
+	res.render('welcome.hbs',{
+		title: "English Exam System",
+	});
+});
+
 app.listen(port ,()=>{
 	console.log(`server is started in ${port}`)
 });
